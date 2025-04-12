@@ -1,23 +1,19 @@
 
 
-function Header() {
+function Header(){
 
-    return (
+    return(
         <header>
-            <h1>My Website</h1>
+            <h1>My Webiste</h1>
             <nav>
-                <ul>
-                    <li><a herf="#">Home</a></li>
-                    <li><a herf="#">About</a></li>
-                    <li><a herf="#">Services</a></li>
-                    <li><a herf="#">Contact</a></li>
-                </ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About</a></li>
+                <li> <a href="#">Services</a></li>
+                <li> <a href="#">Contact</a></li>
             </nav>
             <hr></hr>
         </header>
-
-    )
-
-
+    );
 }
+
 export default Header

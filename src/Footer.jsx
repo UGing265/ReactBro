@@ -2,7 +2,7 @@
 function Footer(){
 
     return(
-        <p>&copy;{new Date().getFullYear()} Your webiste name</p>
+        <p>&copy;{new Date().getFullYear()} Shiroru grind React</p>
     )
 
 }

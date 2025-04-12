@@ -1,12 +1,19 @@
-import UserGreeting from "./UserGreeting"
-
+import Header from './Header.jsx'
+import Food from './Food.jsx'
+import Footer from './Footer.jsx'
+import Card from './Card.jsx'
 
 function App() {
-  return (
+
+  return(
     <>
-      <UserGreeting isLoggingIn={false} username="tahka"/>
+      <Header/>
+      <Card/><Card/><Card/><Card/><Card/><Card/>
+      <Footer/>
+      
     </>
   );
+
 }
 
 export default App
