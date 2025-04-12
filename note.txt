@@ -1,0 +1,15 @@
+card Title is popular in React app application
+
+HOW TO STYLE REACT COMPONENTS WITH CSS
+
+3 METHOD
+                            how big project ?
+1. EXTERNAL (GLOBAL USE) mediem size
+2. MODULES (FILE USE)   big size and hash algorithm
+3. INLINE (INDECT USE) small size
+
+
+props = read-only properties
+        from parent components send data to a child components
+propTypes = makesure correct datatype
+defaultProps = default value (import PropTypes from 'prop-types')
