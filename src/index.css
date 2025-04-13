@@ -64,3 +64,17 @@
   padding: 10px;
   margin: 0;
 }
+
+
+.category-list{
+  padding: 1rem;
+  margin: auto 3rem;
+  border: red 1px solid;
+  text-align: center;
+  background-color: aqua;
+  font-size: 150%;
+}
+
+.items-list{
+  list-style: none;
+}
