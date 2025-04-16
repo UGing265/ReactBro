@@ -1,4 +1,4 @@
-
+import PropsTypes from 'prop-types';
 function List(props){
     // const fruits = ["apple","orange","banana","coconut","pineapple"]
     // const fruits = [{id:1,name:"apple",cali:99},
@@ -33,5 +33,19 @@ function List(props){
 
 }
 
+List.propTypes = {
+    category: PropsTypes.string,
+    items: PropsTypes.arrayOf(PropsTypes.shape({
+                                                id: PropsTypes.number,
+                                                name: PropsTypes.string,
+                                                cali: PropsTypes.number
+    })),
+
+}
+
+List.defaultProps = {
+    category: "Category",
+    items: [],
+}
 
 export default List

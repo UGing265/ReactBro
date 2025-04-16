@@ -12,7 +12,7 @@ function App() {
                     {id:5,name:"pineapple",cali:45}]
 
   const vegetables = [{id:1,name:"potatoes",cali:9},
-                      {id:2,name:"celery",cali:34},
+                      {id:2,name:"celery",cali:"gay"},
                       {id:3,name:"carrots",cali:53},
                       {id:4,name:"corn",cali:4},
                       {id:5,name:"broccoli",cali:33}]
