@@ -3,6 +3,11 @@ import Food from './Food.jsx'
 import Footer from './Footer.jsx'
 import Card from './Card.jsx'
 import List from './List.jsx'
+import Buttonjs from './Button/buttjs.jsx'
+import PP from './ProfilePicture.jsx'
+import SC from './StateComponent.jsx'
+import Counter from './Counter/Couter.gay.jsx'
+
 
 function App() {
   const fruits = [{id:1,name:"apple",cali:99},
@@ -22,6 +27,11 @@ function App() {
     
     <>
       <Header/>
+      <Counter/>
+
+      <SC/>
+      <PP/>
+      <Buttonjs/>
       <List items={fruits} category="Fruits"/>
       <List items={vegetables} category="vegetables"/>
       {/* <Card/> */}
