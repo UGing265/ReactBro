@@ -1,7 +1,8 @@
 
+
 function ProfilePicture(){
     
-    const imageLink = './ReactBro/src/assets/swedish.jpg';
+   const imageLink = `./src/assets/swedish.jpg`; 
     const deleteStyle = (e) => {e.target.style.display="none"}
 
     return(

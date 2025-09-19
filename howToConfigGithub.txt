@@ -1,0 +1,21 @@
+hey 
+i want to share you how to deploy github website
+
+
+go vite.config.js -> add folder Name github like
+  base: "/ReactBro",
+
+Go Package.json -> add homepage like this
+  "homepage": "https://uging265.github.io/ReactBro/",
+  "name": "my-react-app",
+
+in Package.json -> add 2 this (alr test in vite react)
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+
+    file: dist you have to check in folder if you see file dlist then change gh-pages -d dlist
+
+done go cmd.exe 
+run: npm run deploy 
+
+well done you will see 2 branch main and gh-pages lets run web in gh-pages (dont deploy web in main it isn't work)
